@@ -1,0 +1,8 @@
+project: Link
+target: fuzz-Link
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /Link_fuzz
+    libfuzzer: true
